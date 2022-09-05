@@ -27,6 +27,7 @@ services:
     command: ["rasa", "run", "actions"]
     ports:
     - '5055:5055'
+    public: true
     networks:
     - all
 
