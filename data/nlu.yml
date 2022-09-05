@@ -1,0 +1,113 @@
+version: "3.1"
+
+nlu:
+- intent: greetings
+  examples: |
+    - Olá, tudo bem?
+    - Tudo bem contigo?
+    - Estou precisando de uma informação
+    - Tem alguém online?
+    - Alguém aí?
+    - Está on-line?
+    - Ola
+    - Boa noite
+    - Boa tarde
+    - Bom dia
+    - E aí
+    - Ei
+    - Oi
+    - oie
+    - Oiii!
+
+- intent: ajuda
+  examples: |
+    - Ajuda
+    - AJUDA
+    - Poderia me ajudar?
+    - Ajude-me
+
+- intent: inicio_biblioteca
+  examples: |
+    - Como iniciou-se os planos de criar a biblioteca?
+    - A biblioteca já tinha livros quando foi inaugurada?
+    - Como foi a inauguração da biblioteca?
+    - Como era o acervo literário naquela época?
+    - Início das atividades da Biblioteca do Campus Carvalho de Mendonça
+    - Bilbioteca
+#    - Quem foram os responsáveis pela criação da biblioteca?
+
+- intent: o_que_eh_o_observaimar
+  examples: |
+    - O que é o observatório do IMar?
+    - Para que serve o observatório do Instituto do Mar?
+    - Qual a missão do ObservaIMar?
+    - Qual o intuito do observatório do IMar?
+    - Com que finalidade foi criado o observatório do Instituto do Mar?
+    - Qual o propósito do observatório do IMar
+    - Quais são os objetivos do observatório do Instituto do Mar
+
+- intent: outros_observatorios
+  examples: |
+    - Existem outros observatórios na UNIFESP?
+    - Quero conhecer outros observatórios
+    - Quais são os outros observatórios?
+    - Como encontro os outros observatórios?
+    - Há mais observatórios?
+    - Têm outros observatórios?
+    - Quero informações sobre os demais observatórios
+    - E os demais observatórios?
+    - Quero conhecer os demais observatórios
+    - E o resto dos observatórios?
+    - Quero me informar sobre os observatórios restantes
+    - Outros observatorios
+
+- intent: meios_de_contato
+  examples: |
+    - Quais são os meios de contato
+    - Como posso falar com uma pessoa
+    - Preciso falar com um ser humano
+    - Quero falar com um ser humano
+    - Tenho que conversar com um ser humano
+    - Com quem posso conversar
+    - Como me comunicar com uma pessoa
+    - Quero dialogar com uma pessoa
+    - Qual o numero de telefone
+    - Qual o e-mail do IMar
+    - Quero entrar em contato por email
+    - Quero falar pelo telefone
+    - Como posso entrar em contato?
+    - Meios de contato
+
+- intent: ano_de_2003
+  examples: |
+    - Como ocorreu a expansão da UNIFESP para a Baixada Santista?
+    - Como começaram as trativas para a criação do campus?
+    - Quem foram os responsáveis por trazer o campus para Santos?
+    - Processo de expansão para Santos.
+    - Implementação de um novo campus no Litoral.
+    - UNIFESP BS na cidade de Santos.
+
+- intent: ano_de_2012
+  examples: |
+    - Em que ano houve a primeira turma do Bacharelado Interdisplinar em Ciência e Tecnologia do Mar?
+    - Ano de inicio das aulas do BICT Mar
+    - Primeira Turma
+    - Início das aulas
+    - Quantos alunos estavam matriculados na primeira turma?
+    - Primeiras bolsas no BICT
+    - Pimeiro projeto em conjunto
+
+- intent: fora_de_contexto
+  examples: |
+    - lkflsdkjfsdf
+    - sdfdffdfsdfsdf
+    - sdfsdfsdflk
+    - slkfwerpoitwe
+    - rwrposdf
+    - pewrpewirpowemslnf
+    - swdflkfjl
+    - Vai chover hoje?
+    - Conte uma piada
+    - 0123456789
+    - esta é uma mensagem fora de contexto
+    - quanto é 4+3?

@@ -1,0 +1,16 @@
+Mudar diretório
+cd C:\Users\paulo\Desktop\customer-care-chatbot-main
+
+Iniciar o ambiente
+conda activate observatorio_bot
+
+treinar o bot
+rasa train
+
+rodar o bot no navegador
+rasa run -m models --enable-api --cors “*” --debug
+
+//////////////////////////////////////////////////
+
+rodar o bot no terminal
+rasa shell

@@ -1,0 +1,64 @@
+version: "3.1"
+
+intents:
+  - boas_vindas
+  - greetings
+  - nlu_fallback
+  - ajuda
+  - inicio_biblioteca
+  - fora_de_contexto
+  - o_que_eh_o_observaimar
+  - outros_observatorios
+  - meios_de_contato
+  - ano_de_2003
+  - ano_de_2012
+
+
+responses:
+  utter_boas_vindas:
+  - text: "Oi, tudo bem? Caso tenha dúvidas sobre o Observatório do IMar da UNIFESP-BS é só perguntar que eu tento responder o que estiver ao meu alcance. Se não souber por onde começar, digite AJUDA."
+  - text: "Oi, eu sou um bot. Caso tenha dúvidas sobre o Observatório do IMar da UNIFESP-BS é só perguntar que eu tento responder o que estiver ao meu alcance. Para entender como você pode interagir comigo basta escrever AJUDA."
+
+  utter_greetings:
+  - text: "Oi, tudo bem? Em que posso ajudar?"
+
+  utter_please_rephrase:
+  - text: "Desculpe, ainda não sou capaz de entender essa mensagem. Poderia reformular a frase?"
+  - text: "Desculpe, não consegui te entender direito. Você pode perguntar de outra forma?"
+  - text: "Desculpe, não entendi. Poderia reescrever utilizando outras palavras?"
+  - text: "Eu não consegui te entender direito, consegue reformular a frase?"
+
+  utter_ajuda:
+  - text: "Até o momento só consigo falar sobre os assuntos abaixo, mas em breve trarei mais conteúdo :) \n
+        Caso queira utilizar alguma palavra-chave eu recomendo: \n
+          - Início das atividades da Biblioteca do BICT. \n
+          - Propósito do ObservaIMar. \n
+          - Outros Observatórios. \n
+          - Meios de contato. \n
+          - Criação do campus. \n
+          - Primeira turma do BICT Mar."
+  
+  utter_inicio_biblioteca:
+  - text: "A biblioteca do IMar começou a ser planejada em 20XX. Caso queira saber mais sobre esse assunto recomendo as seguintes entrevistas: \n
+        Cristina, entre 20 min e 00 s e 22 min e 15 s; \n
+        Gleice, entre 11 min e 55 s e 16 min e 53 s;"
+        
+  utter_o_que_eh_o_observaimar:
+  - text: "O ObservaIMar é um espaço democrático que visa contribuir para o monitoramento dos impactos científicos, sociais, ambientais e territoriais realizados pelo Instituto do Mar, com o objetivo de expandir os acontecimentos da universidade para a população da região e aumentar a visibilidade e participação da sociedade."
+  
+  utter_outros_observatorios:
+  - text: "Gostaria de conhecer os outros observatórios? \n
+        No link: https://observatorioimar.unifesp.br/observaimar/demais-observatorios você encontra todos eles."
+  
+  utter_meios_de_contato:
+  - text: "Caso você queira falar com uma pessoa, você pode fazer uma ligação para o número de telefone (13) 3229-0100, ou então mandar um e-mail para observaimar.bs@unifesp.br."
+
+  utter_ano_de_2003:
+  - text: "As primeiras propostas para a criação do campus ocorreram em 2003, quando a ex-parlamentar Mariângela Duarte propôs a expansão da UNIFESP para a Baixada Santista. Você pode ver a história em maiores detalhes no tópico 2003 da linha do tempo do Observatório."
+
+  utter_ano_de_2012:
+  - text: "Em 2012 houve o início do curso do BICT-Mar com 200 alunos. Neste período foi dado os toques finais no curso com a contratação de novos professores e organização da biblioteca. Houve também a realização de um projeto em parceria com a UFRJ, onde foram oferecidas as primeiras bolsas para os alunos. Você pode ver a história em maiores detalhes no tópico 2012 da linha do tempo do Observatório."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
