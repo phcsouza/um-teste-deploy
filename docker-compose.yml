@@ -10,7 +10,7 @@ services:
     - ./actions:/app/actions
     - ./data:/app/data
     - ./models:/app/models
-    command: [“rasa”, “run”,“-m models”, “–enable-api”, “–cors”,““*””, “-p 5006”]
+    command: bash -c "rm -rf models/* && rasa train && rasa run --enable-api --cors \"*\" --debug -p 5006"
     ports:
     - '5006:5006'
     public: true
