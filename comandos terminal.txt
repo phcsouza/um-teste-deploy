@@ -1,5 +1,5 @@
 Mudar diretório
-cd C:\Users\paulo\Desktop\customer-care-chatbot-main
+cd C:\Users\paulo\OneDrive\Documents\Unifesp\Organização da Vida\Repositório\um-teste-deploy
 
 Iniciar o ambiente
 conda activate observatorio_bot
