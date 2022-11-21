@@ -59,6 +59,9 @@ responses:
   utter_ano_de_2012:
   - text: "Em 2012 houve o início do curso do BICT-Mar com 200 alunos. Neste período foi dado os toques finais no curso com a contratação de novos professores e organização da biblioteca. Houve também a realização de um projeto em parceria com a UFRJ, onde foram oferecidas as primeiras bolsas para os alunos. Você pode ver a história em maiores detalhes no tópico 2012 da linha do tempo do Observatório."
 
+actions:
+  - action_save_conversation
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

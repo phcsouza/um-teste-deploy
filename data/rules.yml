@@ -6,53 +6,64 @@ rules:
   steps:
   - intent: boas_vindas
   - action: utter_boas_vindas
+  - action: action_save_conversation
 
 - rule: Sauda o usuario
   steps:
   - intent: greetings
   - action: utter_greetings
+  - action: action_save_conversation
 
 - rule: Pedir para reformular a mensagem caso NLU não entenda
   steps:
   - intent: nlu_fallback
   - action: utter_please_rephrase
+  - action: action_save_conversation
 
 - rule: Pede para o usuario reformular a mensagem caso insira algo inesperado
   steps:
   - intent: fora_de_contexto
   - action: utter_please_rephrase
+  - action: action_save_conversation
 
 - rule: Orienta o usuario caso ele peça ajuda
   steps:
   - intent: ajuda
   - action: utter_ajuda
+  - action: action_save_conversation
 
 - rule: Fala sobre o inicio das atividades da biblioteca no IMar
   steps:
   - intent: inicio_biblioteca
   - action: utter_inicio_biblioteca
+  - action: action_save_conversation
 
 - rule: Introducao ao observatorio do IMar
   steps:
   - intent: o_que_eh_o_observaimar
   - action: utter_o_que_eh_o_observaimar
+  - action: action_save_conversation
 
 - rule: Informa sobre outros observatorios
   steps:
   - intent: outros_observatorios
   - action: utter_outros_observatorios
+  - action: action_save_conversation
 
 - rule: Informa os meios de contato
   steps:
   - intent: meios_de_contato
   - action: utter_meios_de_contato
+  - action: action_save_conversation
 
 - rule: Acontecimentos marcantes de 2003
   steps:
   - intent: ano_de_2003
   - action: utter_ano_de_2003
+  - action: action_save_conversation
 
 - rule: Acontecimentos marcantes de 2012
   steps:
   - intent: ano_de_2012
   - action: utter_ano_de_2012
+  - action: action_save_conversation

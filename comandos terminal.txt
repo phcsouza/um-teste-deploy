@@ -13,4 +13,7 @@ rasa run -m models --enable-api --cors “*” --debug
 //////////////////////////////////////////////////
 
 rodar o bot no terminal
-rasa shell
+rasa shell -m models --endpoints endpoints.yml
+
+Rodar bot com a database
+rasa run -m models --endpoints endpoints.yml

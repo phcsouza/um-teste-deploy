@@ -15,6 +15,7 @@ WORKDIR /app
 RUN pip install --no-cache-dir --upgrade pip
 
 RUN pip install rasa==3.1
+RUN pip install pandas==1.4.4
 
 ADD config.yml config.yml
 ADD domain.yml domain.yml

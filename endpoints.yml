@@ -11,11 +11,20 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 action_endpoint:
-  url: "http://rasa-actions-server/webhook"
+  url: "http://localhost:5055/webhook"
 
 # Tracker store which is used to store the conversations.
 # By default the conversations are stored in memory.
 # https://rasa.com/docs/rasa/tracker-stores
+tracker_store:
+    type: SQL
+    dialect: "sqlite"  # the dialect used to interact with the db
+    url: "sqlite:///./rasa.db"  # (optional) host of the sql db, e.g. "localhost"
+    db: "rasa.db"  # path to your db
+    username:  # username used for authentication
+    password:  # password used for authentication
+    query: # optional dictionary to be added as a query string to the connection URL
+      driver: my-driver
 
 #tracker_store:
 #    type: redis
