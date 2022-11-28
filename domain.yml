@@ -23,10 +23,11 @@ responses:
   - text: "Oi, tudo bem? Em que posso ajudar?"
 
   utter_please_rephrase:
-  - text: "Desculpe, ainda não sou capaz de entender essa mensagem. Poderia reformular a frase?"
-  - text: "Desculpe, não consegui te entender direito. Você pode perguntar de outra forma?"
-  - text: "Desculpe, não entendi. Poderia reescrever utilizando outras palavras?"
-  - text: "Eu não consegui te entender direito, consegue reformular a frase?"
+  - text: "Desculpe, ainda não sou capaz de entender essa mensagem. Poderia reformular a frase? Caso tenha dúvidas quanto aos assuntos que sou capaz de responder digite AJUDA."
+  - text: "Desculpe, não consegui te entender direito. Você pode perguntar de outra forma? Caso tenha dúvidas quanto aos assuntos que sou capaz de responder digite AJUDA."
+  - text: "Desculpe, não entendi. Poderia reescrever utilizando outras palavras? Caso tenha dúvidas quanto aos assuntos que sou capaz de responder digite AJUDA."
+  - text: "Eu não consegui te entender direito, consegue reformular a frase? Caso tenha dúvidas quanto aos assuntos que sou capaz de responder digite AJUDA."
+  
 
   utter_ajuda:
   - text: "Até o momento só consigo falar sobre os assuntos abaixo, mas em breve trarei mais conteúdo :) \n
