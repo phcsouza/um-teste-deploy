@@ -11,7 +11,7 @@ pipeline:
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
-    analyzer: word
+    analyzer: char_wb
   - name: DIETClassifier
     epochs: 100
     model_confidence: softmax
