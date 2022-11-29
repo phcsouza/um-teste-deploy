@@ -33,7 +33,8 @@ nlu:
     - Como foi a inauguração da biblioteca?
     - Como era o acervo literário naquela época?
     - Início das atividades da Biblioteca do Campus Carvalho de Mendonça
-    - Bilbioteca
+    - Fale sobre a Biblioteca
+    - Biblioteca
 #    - Quem foram os responsáveis pela criação da biblioteca?
 
 - intent: o_que_eh_o_observaimar
