@@ -40,7 +40,7 @@ responses:
           - Primeira turma do BICT Mar."
   
   utter_inicio_biblioteca:
-  - text: "A biblioteca do IMar começou a ser planejada em 20XX. Caso queira saber mais sobre esse assunto recomendo as seguintes entrevistas: \n
+  - text: "A biblioteca do IMar começou as suas atividades em 2012. Caso queira saber mais sobre esse assunto recomendo as seguintes entrevistas: \n
         Cristina, entre 20 min e 00 s e 22 min e 15 s; \n
         Gleice, entre 11 min e 55 s e 16 min e 53 s;"
         

@@ -11,6 +11,12 @@ pipeline:
   - name: RegexFeaturizer
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
+  - name: CountVectorsFeaturizer
+    analyzer: char_wb
+    min_df: 2
+    max_df: 30
+    min_ngram: 1
+    max_ngram: 4
     analyzer: char_wb
   - name: DIETClassifier
     epochs: 100
