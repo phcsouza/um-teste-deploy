@@ -1,0 +1,5 @@
+
+*.csv
+.~lock.chats2.csv\#
+rasa.db
+*.db
