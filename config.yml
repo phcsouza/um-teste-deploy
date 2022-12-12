@@ -17,7 +17,6 @@ pipeline:
     max_df: 30
     min_ngram: 1
     max_ngram: 4
-    analyzer: char_wb
   - name: DIETClassifier
     epochs: 100
     model_confidence: softmax
